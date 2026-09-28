@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apex Client Growth | Google Ads & Local SEO for Local Businesses</title>
+
+    <meta name="description" content="Apex Client Growth helps local service businesses improve their Google visibility, generate qualified leads, and turn more searches into customers through Google Ads, Local SEO, and conversion-focused landing pages.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero-bg {
+            background:
+                radial-gradient(circle at top right, rgba(220, 38, 38, 0.08), transparent 35%),
+                linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+        }
+
+        .cta-button {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow:
+                0 20px 25px -5px rgb(0 0 0 / 0.12),
+                0 8px 10px -6px rgb(0 0 0 / 0.12);
+        }
+
+        .option-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .option-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.20);
+        }
+
+        .service-card {
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            border-color: #fecaca;
+            box-shadow: 0 20px 40px -15px rgb(0 0 0 / 0.12);
+        }
+
+        .step-card {
+            transition: all 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .red-glow {
+            box-shadow: 0 0 0 8px rgba(220, 38, 38, 0.08);
+        }
+
+        .form-input {
+            transition: all 0.2s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #dc2626;
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.10);
+        }
+
+        .location-pill {
+            transition: all 0.2s ease;
+        }
+
+        .location-pill:hover {
+            transform: translateY(-2px);
+            border-color: #fecaca;
+            background: #fff;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
+
+        .mobile-menu.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-50 text-zinc-800">
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5">
+
+            <div class="flex justify-between items-center">
+
+                <!-- LOGO -->
+                <a href="#top" class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center text-white font-bold text-2xl">
+                        A
+                    </div>
+
+                    <div>
+                        <h1 class="text-xl md:text-2xl font-bold tracking-tight">
+                            Apex Client Growth
+                        </h1>
+
+                        <p class="text-xs text-zinc-500 -mt-1">
+                            Digital Marketing Agency
+                        </p>
+                    </div>
+                </a>
+
+                <!-- DESKTOP NAVIGATION -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold">
+
+                    <a href="#problem"
+                       class="hover:text-red-600 transition-colors">
+                        The Problem
+                    </a>
+
+                    <a href="#solution"
+                       class="hover:text-red-600 transition-colors">
+                        The Solution
+                    </a>
+
+                    <a href="#services"
+                       class="hover:text-red-600 transition-colors">
+                        Services
+                    </a>
+
+                    <a href="#who-we-work-with"
+                       class="hover:text-red-600 transition-colors">
+                        Industries
+                    </a>
+
+                    <a href="#areas"
+                       class="hover:text-red-600 transition-colors">
+                        Areas We Serve
+                    </a>
+
+                    <a href="#contact-section"
+                       class="hover:text-red-600 transition-colors">
+                        Contact
+                    </a>
+
+                </nav>
+
+                <!-- DESKTOP CONTACT -->
+                <div class="hidden md:flex items-center gap-4">
+
+                    <a href="mailto:ApexClientGrowth@gmail.com"
+                       class="text-sm font-medium hover:text-red-600 transition-colors">
+                        ApexClientGrowth@gmail.com
+                    </a>
+
+                    <a href="#contact-section"
+                       class="bg-red-600 text-white px-5 py-2.5 rounded-2xl font-semibold hover:bg-red-700 transition-colors">
+                        Get Started
+                    </a>
+
+                </div>
+
+                <!-- MOBILE BUTTON -->
+                <button
+                    onclick="toggleMobileMenu()"
+                    class="lg:hidden text-2xl text-zinc-800"
+                    aria-label="Open navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+            <!-- MOBILE NAVIGATION -->
+            <div id="mobileMenu" class="mobile-menu lg:hidden pt-6">
+
+                <div class="flex flex-col gap-5 text-sm font-semibold">
+
+                    <a href="#problem" onclick="closeMobileMenu()">
+                        The Problem
+                    </a>
+
+                    <a href="#solution" onclick="closeMobileMenu()">
+                        The Solution
+                    </a>
+
+                    <a href="#services" onclick="closeMobileMenu()">
+                        Services
+                    </a>
+
+                    <a href="#who-we-work-with" onclick="closeMobileMenu()">
+                        Industries
+                    </a>
+
+                    <a href="#areas" onclick="closeMobileMenu()">
+                        Areas We Serve
+                    </a>
+
+                    <a href="#contact-section" onclick="closeMobileMenu()">
+                        Contact
+                    </a>
+
+                    <a href="mailto:ApexClientGrowth@gmail.com"
+                       class="text-red-600">
+                        ApexClientGrowth@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="top">
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+        <section class="hero-bg py-20 md:py-32">
+
+            <div class="max-w-6xl mx-auto px-6 text-center">
+
+                <div class="inline-flex items-center gap-2 bg-white border border-zinc-200 rounded-full px-5 py-2 mb-8 text-sm font-semibold text-zinc-700 shadow-sm">
+                    <span class="w-2 h-2 bg-red-600 rounded-full"></span>
+                    Helping Local Businesses Grow Online
+                </div>
+
+                <h1 class="text-5xl md:text-7xl font-black leading-none tracking-tighter mb-7">
+
+                    Get More Local
+                    <br>
+
+                    Customers From
+                    <br>
+
+                    <span class="text-red-600">
+                        Google.
+                    </span>
+
+                </h1>
+
+                <p class="text-xl md:text-2xl text-zinc-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+
+                    Apex Client Growth helps local service businesses improve their
+                    online visibility, generate qualified leads, and turn more
+                    searches into real customer opportunities.
+
+                </p>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+                    <a href="#contact-section"
+                       class="cta-button bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-5 rounded-2xl shadow-xl inline-flex items-center justify-center gap-3">
+
+                        GET YOUR FREE MARKETING REVIEW
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
+                    <a href="#solution"
+                       class="bg-white border border-zinc-200 hover:border-zinc-300 text-zinc-800 text-xl font-bold px-10 py-5 rounded-2xl shadow-sm inline-flex items-center justify-center">
+
+                        See How It Works
+
+                    </a>
+
+                </div>
+
+                <p class="text-sm text-zinc-500 mt-6">
+                    Serving local businesses across selected U.S. markets.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROBLEM SECTION
+        ========================== -->
+        <section id="problem" class="py-24 bg-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="max-w-3xl mx-auto text-center mb-16">
+
+                    <p class="text-red-600 font-bold uppercase tracking-wider text-sm mb-4">
+                        The Problem
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-6">
+                        Your Customers Are Searching.
+                        <br>
+                        Are They Finding You?
+                    </h2>
+
+                    <p class="text-xl text-zinc-600 leading-relaxed">
+
+                        Every day, people search Google for businesses that provide
+                        the exact services they need.
+
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-2 gap-8 items-stretch">
+
+                    <div class="bg-zinc-50 rounded-3xl p-8 md:p-10 border border-zinc-100">
+
+                        <div class="w-14 h-14 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-6">
+
+                            <i class="fas fa-magnifying-glass text-2xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-5">
+                            People Are Already Looking
+                        </h3>
+
+                        <p class="text-zinc-600 leading-relaxed mb-6">
+
+                            Someone searches for an HVAC company, law firm,
+                            interior designer, swimming pool contractor, or
+                            elevator company in their area.
+
+                        </p>
+
+                        <p class="text-zinc-700 font-semibold">
+
+                            The businesses that appear in front of that customer
+                            have the opportunity to earn the call.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-zinc-900 text-white rounded-3xl p-8 md:p-10">
+
+                        <div class="w-14 h-14 bg-red-600 rounded-2xl flex items-center justify-center mb-6">
+
+                            <i class="fas fa-chart-line text-2xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-5">
+                            Visibility Can Become Revenue
+                        </h3>
+
+                        <p class="text-zinc-300 leading-relaxed mb-6">
+
+                            If your business isn't visible when potential customers
+                            are searching, those opportunities can go to a
+                            competitor instead.
+
+                        </p>
+
+                        <p class="text-white font-semibold">
+
+                            That's where a focused digital marketing strategy can
+                            make a difference.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             COMMON OPTIONS
+        ========================== -->
+        <section class="py-20 bg-zinc-100">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-14">
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-5">
+                        So What Are Your Options?
+                    </h2>
+
+                    <p class="text-xl text-zinc-600">
+                        You could try to figure everything out yourself...
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-3 gap-8">
+
+                    <!-- OPTION 1 -->
+                    <div class="option-card bg-white rounded-3xl p-8 shadow-sm">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+
+                            <i class="fas fa-laptop-code text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-center mb-4">
+                            DO EVERYTHING YOURSELF?
+                        </h3>
+
+                        <p class="text-zinc-600 text-center leading-relaxed">
+
+                            Learning marketing, managing campaigns,
+                            researching keywords, optimizing your website,
+                            tracking leads...
+
+                            <br><br>
+
+                            That's a lot to add to an already busy business.
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- OPTION 2 -->
+                    <div class="option-card bg-white rounded-3xl p-8 shadow-sm">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+
+                            <i class="fas fa-user-plus text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-center mb-4">
+                            HIRE SOMEONE INTERNALLY?
+                        </h3>
+
+                        <p class="text-zinc-600 text-center leading-relaxed">
+
+                            Finding the right marketing professional
+                            isn't always easy.
+
+                            <br><br>
+
+                            Then there's hiring, training, management,
+                            software, and ongoing overhead.
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- OPTION 3 -->
+                    <div class="option-card bg-white rounded-3xl p-8 shadow-sm">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+
+                            <i class="fas fa-building text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-center mb-4">
+                            HIRE AN AGENCY?
+                        </h3>
+
+                        <p class="text-zinc-600 text-center leading-relaxed">
+
+                            The challenge is finding an agency that
+                            actually understands your business,
+                            your market, and your goals.
+
+                            <br><br>
+
+                            You shouldn't feel like just another account number.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOLUTION SECTION
+        ========================== -->
+        <section id="solution" class="py-24 bg-zinc-900 text-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="max-w-3xl mx-auto text-center">
+
+                    <p class="text-red-500 font-bold uppercase tracking-wider text-sm mb-4">
+                        The Solution
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black leading-tight mb-7">
+
+                        A Focused Marketing System
+                        <br>
+
+                        Built Around
+                        <span class="text-red-500">
+                            Growth.
+                        </span>
+
+                    </h2>
+
+                    <p class="text-xl text-zinc-300 leading-relaxed">
+
+                        Apex Client Growth helps local businesses build a stronger
+                        path from Google search to customer inquiry.
+
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-3 gap-7 mt-16">
+
+                    <div class="bg-zinc-800 border border-zinc-700 rounded-3xl p-8">
+
+                        <div class="text-red-500 text-3xl mb-6">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-4">
+                            Target The Right Searches
+                        </h3>
+
+                        <p class="text-zinc-400 leading-relaxed">
+
+                            Focus on searches that are relevant to the services
+                            your business actually provides.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-zinc-800 border border-zinc-700 rounded-3xl p-8">
+
+                        <div class="text-red-500 text-3xl mb-6">
+                            <i class="fas fa-chart-simple"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-4">
+                            Track Performance
+                        </h3>
+
+                        <p class="text-zinc-400 leading-relaxed">
+
+                            Use campaign and website data to understand what is
+                            working and where opportunities exist.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-zinc-800 border border-zinc-700 rounded-3xl p-8">
+
+                        <div class="text-red-500 text-3xl mb-6">
+                            <i class="fas fa-arrows-rotate"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-4">
+                            Optimize Over Time
+                        </h3>
+
+                        <p class="text-zinc-400 leading-relaxed">
+
+                            Marketing isn't a one-time setup. Campaigns and
+                            strategies can be refined as data comes in.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+        <section id="services" class="py-24 bg-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-16">
+
+                    <p class="text-red-600 font-bold uppercase tracking-wider text-sm mb-4">
+                        What We Do
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-5">
+                        Digital Marketing Built For Local Growth
+                    </h2>
+
+                    <p class="text-xl text-zinc-600 max-w-2xl mx-auto">
+                        We focus on the marketing channels that can help local
+                        businesses become more visible and generate customer opportunities.
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-3 gap-8">
+
+                    <!-- SERVICE 1 -->
+                    <div class="service-card bg-zinc-50 border border-zinc-100 rounded-3xl p-8">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-7">
+
+                            <i class="fab fa-google text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Google Ads
+                        </h3>
+
+                        <p class="text-zinc-600 leading-relaxed mb-6">
+
+                            Put your business in front of people actively searching
+                            for the services you provide.
+
+                        </p>
+
+                        <ul class="space-y-3 text-sm text-zinc-600">
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Search campaign setup
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Keyword strategy
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Ad optimization
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Conversion tracking
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- SERVICE 2 -->
+                    <div class="service-card bg-zinc-50 border border-zinc-100 rounded-3xl p-8">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-7">
+
+                            <i class="fas fa-location-dot text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Local SEO
+                        </h3>
+
+                        <p class="text-zinc-600 leading-relaxed mb-6">
+
+                            Improve your local online presence so potential
+                            customers have a better chance of discovering your business.
+
+                        </p>
+
+                        <ul class="space-y-3 text-sm text-zinc-600">
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Local visibility
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Google Business optimization
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Local keyword strategy
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Competitive research
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- SERVICE 3 -->
+                    <div class="service-card bg-zinc-50 border border-zinc-100 rounded-3xl p-8">
+
+                        <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-7">
+
+                            <i class="fas fa-window-maximize text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Landing Pages
+                        </h3>
+
+                        <p class="text-zinc-600 leading-relaxed mb-6">
+
+                            Give potential customers a clear, focused destination
+                            after they click your marketing.
+
+                        </p>
+
+                        <ul class="space-y-3 text-sm text-zinc-600">
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Conversion-focused design
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Clear calls-to-action
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Mobile-friendly layouts
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check text-red-600 mr-2"></i>
+                                Lead-focused messaging
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WHO WE WORK WITH
+        ========================== -->
+        <section id="who-we-work-with" class="py-24 bg-zinc-100">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-16">
+
+                    <p class="text-red-600 font-bold uppercase tracking-wider text-sm mb-4">
+                        Industries
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-5">
+                        Who We Work With
+                    </h2>
+
+                    <p class="text-xl text-zinc-600">
+                        Built for local service businesses with real growth goals.
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+                    <!-- LAW -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            ⚖️ Law Firms
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Help potential clients discover your firm when they
+                            are actively searching for legal services.
+                        </p>
+
+                    </div>
+
+
+                    <!-- ROOFING -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🏠 Roofing Companies
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Increase visibility for homeowners searching for
+                            roofing repairs, replacements, and installations.
+                        </p>
+
+                    </div>
+
+
+                    <!-- INTERIOR DESIGN -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🎨 Interior Designers
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Reach homeowners and businesses looking for
+                            professional interior design services.
+                        </p>
+
+                    </div>
+
+
+                    <!-- ELEVATOR -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🛗 Elevator Companies
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Connect your business with people searching for
+                            elevator installation, modernization, and services.
+                        </p>
+
+                    </div>
+
+
+                    <!-- SWIMMING POOL -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🏊 Swimming Pool Companies
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Generate more opportunities from homeowners
+                            researching pool construction and related services.
+                        </p>
+
+                    </div>
+
+
+                    <!-- HVAC -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            ❄️ HVAC Companies
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Reach customers searching for heating, ventilation,
+                            air-conditioning, repair, and installation services.
+                        </p>
+
+                    </div>
+
+
+                    <!-- HOME SERVICES -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🛠️ Home Service Businesses
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Plumbers, electricians, painters, remodeling
+                            companies, and other local service providers.
+                        </p>
+
+                    </div>
+
+
+                    <!-- PROPERTY -->
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            🏗️ Property Businesses
+                        </h4>
+
+                        <p class="text-zinc-600">
+                            Help property-focused businesses improve visibility
+                            and attract relevant local inquiries.
+                        </p>
+
+                    </div>
+
+
+                    <!-- MORE -->
+                    <div class="bg-zinc-900 text-white rounded-3xl p-8 service-card">
+
+                        <h4 class="font-bold text-xl mb-3">
+                            + More Local Businesses
+                        </h4>
+
+                        <p class="text-zinc-300">
+                            If your business relies on local customers and
+                            online visibility, there may be an opportunity
+                            for us to help.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+        <section id="process" class="py-24 bg-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-16">
+
+                    <p class="text-red-600 font-bold uppercase tracking-wider text-sm mb-4">
+                        Our Process
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-5">
+                        How It Works
+                    </h2>
+
+                    <p class="text-xl text-zinc-600 max-w-2xl mx-auto">
+                        A straightforward process designed to identify
+                        opportunities and build a stronger marketing system.
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-5 gap-5">
+
+                    <!-- STEP 1 -->
+                    <div class="step-card text-center">
+
+                        <div class="w-16 h-16 mx-auto bg-red-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mb-6">
+                            01
+                        </div>
+
+                        <h3 class="font-bold text-lg mb-3">
+                            Analyze
+                        </h3>
+
+                        <p class="text-sm text-zinc-600">
+                            We assess your current online presence and market.
+                        </p>
+
+                    </div>
+
+
+                    <!-- STEP 2 -->
+                    <div class="step-card text-center">
+
+                        <div class="w-16 h-16 mx-auto bg-red-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mb-6">
+                            02
+                        </div>
+
+                        <h3 class="font-bold text-lg mb-3">
+                            Strategize
+                        </h3>
+
+                        <p class="text-sm text-zinc-600">
+                            We identify relevant opportunities and priorities.
+                        </p>
+
+                    </div>
+
+
+                    <!-- STEP 3 -->
+                    <div class="step-card text-center">
+
+                        <div class="w-16 h-16 mx-auto bg-red-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mb-6">
+                            03
+                        </div>
+
+                        <h3 class="font-bold text-lg mb-3">
+                            Build
+                        </h3>
+
+                        <p class="text-sm text-zinc-600">
+                            We build the marketing assets and campaigns.
+                        </p>
+
+                    </div>
+
+
+                    <!-- STEP 4 -->
+                    <div class="step-card text-center">
+
+                        <div class="w-16 h-16 mx-auto bg-red-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mb-6">
+                            04
+                        </div>
+
+                        <h3 class="font-bold text-lg mb-3">
+                            Launch
+                        </h3>
+
+                        <p class="text-sm text-zinc-600">
+                            We put the strategy into action.
+                        </p>
+
+                    </div>
+
+
+                    <!-- STEP 5 -->
+                    <div class="step-card text-center">
+
+                        <div class="w-16 h-16 mx-auto bg-red-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mb-6">
+                            05
+                        </div>
+
+                        <h3 class="font-bold text-lg mb-3">
+                            Optimize
+                        </h3>
+
+                        <p class="text-sm text-zinc-600">
+                            We use performance data to improve the system.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FREE MARKETING REVIEW
+        ========================== -->
+        <section id="contact-section" class="py-24 bg-zinc-900 text-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+                    <!-- LEFT -->
+                    <div>
+
+                        <p class="text-red-500 font-bold uppercase tracking-wider text-sm mb-4">
+                            Start Here
+                        </p>
+
+                        <h2 class="text-4xl md:text-5xl font-black leading-tight mb-7">
+                            Find Out Where Your Business Stands Online.
+                        </h2>
+
+                        <p class="text-xl text-zinc-300 leading-relaxed mb-8">
+
+                            Request a free marketing review and get a clearer
+                            picture of your current online presence and potential
+                            areas for improvement.
+
+                        </p>
+
+
+                        <div class="space-y-5">
+
+                            <div class="flex items-start gap-4">
+
+                                <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-magnifying-glass"></i>
+                                </div>
+
+                                <div>
+                                    <h3 class="font-bold mb-1">
+                                        Review Your Visibility
+                                    </h3>
+
+                                    <p class="text-zinc-400 text-sm">
+                                        See how your business appears online.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="flex items-start gap-4">
+
+                                <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-users"></i>
+                                </div>
+
+                                <div>
+                                    <h3 class="font-bold mb-1">
+                                        Identify Opportunities
+                                    </h3>
+
+                                    <p class="text-zinc-400 text-sm">
+                                        Find potential areas where customers may be getting lost.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="flex items-start gap-4">
+
+                                <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+
+                                <div>
+                                    <h3 class="font-bold mb-1">
+                                        Get Actionable Direction
+                                    </h3>
+
+                                    <p class="text-zinc-400 text-sm">
+                                        Understand what could be prioritized next.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FORM -->
+                    <div class="bg-white text-zinc-800 rounded-3xl p-7 md:p-10 shadow-2xl">
+
+                        <div class="mb-7">
+
+                            <h3 class="text-2xl md:text-3xl font-black mb-2">
+                                Get Your Free Marketing Review
+                            </h3>
+
+                            <p class="text-zinc-500">
+                                Tell us a little about your business.
+                            </p>
+
+                        </div>
+
+
+                        <!--
+                            FORM NOTE:
+                            This form currently opens the user's email client.
+                            Replace the form action later with your preferred
+                            form service/backend if desired.
+                        -->
+
+                        <form
+                            action="mailto:ApexClientGrowth@gmail.com"
+                            method="post"
+                            enctype="text/plain"
+                            class="space-y-5">
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="Name"
+                                    required
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="Your name">
+
+                            </div>
+
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    Business Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="Business Name"
+                                    required
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="Your business name">
+
+                            </div>
+
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    Business Email
+                                </label>
+
+                                <input
+                                    type="email"
+                                    name="Email"
+                                    required
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="you@yourbusiness.com">
+
+                            </div>
+
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    Business Website
+                                </label>
+
+                                <input
+                                    type="url"
+                                    name="Website"
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="https://yourwebsite.com">
+
+                            </div>
+
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    Business Location
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="Location"
+                                    required
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="City, State">
+
+                            </div>
+
+
+                            <div>
+
+                                <label class="block text-sm font-semibold mb-2">
+                                    What would you like help with?
+                                </label>
+
+                                <textarea
+                                    name="Message"
+                                    rows="4"
+                                    class="form-input w-full border border-zinc-200 rounded-xl px-4 py-3"
+                                    placeholder="Tell us briefly about your business and what you're looking to improve."></textarea>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="w-full bg-red-600 hover:bg-red-700 text-white text-lg font-bold py-4 rounded-xl transition-all">
+
+                                REQUEST MY FREE REVIEW
+                                <i class="fas fa-arrow-right ml-2"></i>
+
+                            </button>
+
+
+                            <p class="text-xs text-zinc-400 text-center">
+                                No obligation. We'll review your information and get back to you.
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             AREAS WE SERVE
+        ========================== -->
+        <section id="areas" class="py-24 bg-white">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-16">
+
+                    <p class="text-red-600 font-bold uppercase tracking-wider text-sm mb-4">
+                        Service Areas
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-black mb-5">
+                        Areas We Serve
+                    </h2>
+
+                    <p class="text-xl text-zinc-600 max-w-2xl mx-auto">
+
+                        We work with local businesses across selected markets
+                        throughout the United States.
+
+                    </p>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-2 gap-8">
+
+                    <!-- NEW JERSEY -->
+                    <div class="border border-zinc-200 rounded-3xl p-8">
+
+                        <div class="flex items-center gap-4 mb-6">
+
+                            <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-red-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <h3 class="text-2xl font-black">
+                                New Jersey
+                            </h3>
+
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Newark
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Jersey City
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Edison
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Princeton
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Hoboken
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Paramus
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Clifton
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Cherry Hill
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Morristown
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TEXAS -->
+                    <div class="border border-zinc-200 rounded-3xl p-8">
+
+                        <div class="flex items-center gap-4 mb-6">
+
+                            <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-red-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <h3 class="text-2xl font-black">
+                                Texas
+                            </h3>
+
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Houston
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Dallas
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Austin
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                San Antonio
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Fort Worth
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Plano
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Frisco
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                McKinney
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- COLORADO -->
+                    <div class="border border-zinc-200 rounded-3xl p-8">
+
+                        <div class="flex items-center gap-4 mb-6">
+
+                            <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-red-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <h3 class="text-2xl font-black">
+                                Colorado
+                            </h3>
+
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Denver
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Colorado Springs
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Aurora
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Fort Collins
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Boulder
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Lakewood
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Arvada
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- GEORGIA -->
+                    <div class="border border-zinc-200 rounded-3xl p-8">
+
+                        <div class="flex items-center gap-4 mb-6">
+
+                            <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-red-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <h3 class="text-2xl font-black">
+                                Georgia
+                            </h3>
+
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Atlanta
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Savannah
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Augusta
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Athens
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Marietta
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Alpharetta
+                            </span>
+
+                            <span class="location-pill border border-zinc-200 px-4 py-2 rounded-full text-sm">
+                                Sandy Springs
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+        <section class="py-24 bg-red-600 text-white">
+
+            <div class="max-w-4xl mx-auto px-6 text-center">
+
+                <h2 class="text-4xl md:text-6xl font-black leading-tight mb-7">
+                    Your Next Customer Could Already Be Searching.
+                </h2>
+
+                <p class="text-xl md:text-2xl text-red-100 leading-relaxed mb-10">
+
+                    Let's find out whether your business is positioned to
+                    capture those opportunities.
+
+                </p>
+
+                <a href="#contact-section"
+                   class="cta-button inline-flex items-center justify-center gap-3 bg-white text-red-600 hover:bg-zinc-100 text-xl font-black px-10 py-5 rounded-2xl shadow-xl">
+
+                    GET YOUR FREE MARKETING REVIEW
+
+                    <i class="fas fa-arrow-right"></i>
+
+                </a>
+
+                <p class="mt-6 text-sm text-red-100">
+                    Apex Client Growth — helping local businesses grow online.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="bg-zinc-950 text-white py-16">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-3 gap-12 items-start">
+
+                <!-- BRAND -->
+                <div>
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center text-white font-bold text-2xl">
+                            A
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-2xl font-bold">
+                                Apex Client Growth
+                            </h3>
+
+                            <p class="text-zinc-500 text-sm">
+                                Digital Marketing Agency
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-zinc-400 leading-relaxed max-w-sm">
+
+                        Helping local service businesses improve their online
+                        visibility and generate more customer opportunities.
+
+                    </p>
+
+                </div>
+
+
+                <!-- QUICK LINKS -->
+                <div>
+
+                    <h4 class="font-bold text-lg mb-5">
+                        Quick Links
+                    </h4>
+
+                    <div class="space-y-3 text-zinc-400">
+
+                        <a href="#problem"
+                           class="block hover:text-white transition-colors">
+                            The Problem
+                        </a>
+
+                        <a href="#solution"
+                           class="block hover:text-white transition-colors">
+                            The Solution
+                        </a>
+
+                        <a href="#services"
+                           class="block hover:text-white transition-colors">
+                            Services
+                        </a>
+
+                        <a href="#who-we-work-with"
+                           class="block hover:text-white transition-colors">
+                            Industries
+                        </a>
+
+                        <a href="#areas"
+                           class="block hover:text-white transition-colors">
+                            Areas We Serve
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT -->
+                <div>
+
+                    <h4 class="font-bold text-lg mb-5">
+                        Contact
+                    </h4>
+
+                    <div class="space-y-4 text-zinc-400">
+
+                        <p>
+                            <i class="fas fa-envelope text-red-600 mr-2"></i>
+
+                            <a href="mailto:ApexClientGrowth@gmail.com"
+                               class="hover:text-white transition-colors">
+
+                                ApexClientGrowth@gmail.com
+
+                            </a>
+
+                        </p>
+
+
+                        <a
+                            href="https://web.facebook.com/profile.php?id=61588990957448&mibextid=wwXIfr&rdid=RQTXszasbcmGUDCg&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F18Wj2gfAPk%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-3 hover:text-white transition-colors">
+
+                            <i class="fab fa-facebook-f text-xl text-red-600"></i>
+
+                            Facebook
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-zinc-800 mt-14 pt-8 text-center">
+
+                <p class="text-xs text-zinc-500">
+                    ©️ 2026 Apex Client Growth. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+    <script>
+
+        function toggleMobileMenu() {
+
+            const menu = document.getElementById('mobileMenu');
+
+            menu.classList.toggle('active');
+
+        }
+
+
+        function closeMobileMenu() {
+
+            const menu = document.getElementById('mobileMenu');
+
+            menu.classList.remove('active');
+
+        }
+
+
+        console.log(
+            "%cApex Client Growth",
+            "color: #dc2626; font-size: 20px; font-weight: bold;"
+        );
+
+        console.log(
+            "%cDigital Marketing Landing Page Loaded",
+            "color: #52525b; font-size: 13px;"
+        );
+
+    </script>
+
+</body>
+</html>
